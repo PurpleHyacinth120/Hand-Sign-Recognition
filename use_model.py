@@ -3,7 +3,7 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
-model_dict = pickle.load(open('./model.p', 'rb'))
+model_dict = pickle.load(open('./new_model.p', 'rb'))
 model = model_dict['model'] #Loads the data from pickle file to current python file
 
 cap = cv2.VideoCapture(0) #capture video from webcam
